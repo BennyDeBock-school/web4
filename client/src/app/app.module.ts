@@ -6,6 +6,7 @@ import { PhotoAlbumModule } from './photo-album/photo-album.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './material/material.module';
 import { SharedModule } from './shared/shared-module.module';
+import { UserModule } from './user/user.module';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { SharedModule } from './shared/shared-module.module';
     PhotoAlbumModule,
     BrowserAnimationsModule,
     MaterialModule,
-    SharedModule
+    SharedModule,
+    UserModule
   ],
   providers: [],
   bootstrap: [AppComponent]

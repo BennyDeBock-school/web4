@@ -8,12 +8,14 @@ import { Component, OnInit } from '@angular/core';
 export class PhotoAlbumComponent implements OnInit {
   title: string;
   description: string;
+  images: File[];
+  
   constructor() { 
-    this.title = 'Japan 2017';
+    this.title = 'Osaka 2017';
     this.description = 'Trip to japan with friends in 2017'
+    //this.images = [new File()]
   }
 
   ngOnInit(): void {
   }
-
 }
